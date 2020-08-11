@@ -1,8 +1,8 @@
 flag = 0;
 if flag==1
     x5uc4v=load('5uc4v.txt','ascii');
-    P1=x5uc4v(:,3);
-    P2=x5uc4v(:,4);
+    P1=x5uc4v(:,3)*0.757;
+    P2=x5uc4v(:,4)*0.757;
     P1r=reshape(P1,400,68);
     P2r=reshape(P2,400,68);
     P1ry1=P1r(:,[68 1:67]);

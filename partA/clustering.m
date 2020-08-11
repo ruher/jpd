@@ -1,6 +1,6 @@
 clc
 clear all;
-Layer_index=666;
+Layer_index=666; % set a meaningful name
 load 6uc.mat
 Vs=V(:,:,61:end);
 Ps=P2(:,:,61:end);

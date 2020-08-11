@@ -14,7 +14,7 @@ P=zeros(length(E),100,61);
 
 for i=1:length(E)
 %   for i=1  
-    name=['BST_SL_tri_2D_inho_calo_erg_' E{i} 'field_tcycle'];
+    name=['PST_SL_tri_2D_inho_calo_erg_' E{i} 'field_tcycle'];
     dirname=[pwd '/' name(1:end-4) ];
     cd(dirname);
     
